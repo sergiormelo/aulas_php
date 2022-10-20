@@ -113,3 +113,10 @@ body{
 .modulo.amarelo > h3{background-color: #FFB200;}
 .modulo.azul2 {border: 2px solid #002B5B;}
 .modulo.azul2 > h3{background-color: #002B5B;}
+p.divisao{
+    margin-bottom: -0.5rem;
+    font-weight: bold;
+}
+hr{
+    margin-bottom: 0rem;
+}
