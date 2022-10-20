@@ -1,10 +1,10 @@
 <div class="titulo">Operadores Lógicos</div>
 <?php
-echo '<p>V ou F</p><hr>';
+echo '<p class=divisao>V ou F</p><hr>';
 var_dump(true);
 echo '<br>';
 var_dump(!true); //not
-echo "<p class=divisao>> Tabela Verdade 'AND' (E)</p><hr>";
+echo "<p class=divisao> Tabela Verdade 'AND' (E)</p><hr>";
 echo '<br>' . var_dump(true && true);
 echo '<br>' . var_dump(true && false);
 echo '<br>' . var_dump(false && true);
@@ -15,7 +15,7 @@ echo '<br>' . var_dump(true and true);
 echo '<br>' . var_dump(true and false);
 echo '<br>' . var_dump(false and true);
 echo '<br>' . var_dump(false and false);
-echo "<p class=divisao>> Tabela Verdade 'OR' (E)</p><hr>";
+echo "<p class=divisao> Tabela Verdade 'OR' (E)</p><hr>";
 echo '<br>' . var_dump(true || true);
 echo '<br>' . var_dump(true || false);
 echo '<br>' . var_dump(false || true);
@@ -41,12 +41,20 @@ echo "<p class='divisao'>Exemplo:</p><hr>";
 $idade=62;
 $sexo='F';
 if($idade>=60 && $sexo==='F'){
-    echo "Pode se aposentar --> $sexo";
+    echo "Pode se aposentar --> $sexo<br>";
 }
 else if($idade>=65 && $sexo==='M'){
-    echo "Pode se aposentar --> $sexo";
+    echo "Pode se aposentar --> $sexo<br>";
 }
 else {
+    echo "Vai ter que trabalhar mais um pouco...<br>";
+}
+$pagouprevidencia=true;
+$aposentar=($idade>=60 && $sexo==='F') or ($idade>=65 && $sexo==='M');
+$podeaposentar=$pagouprevidencia and $aposentar;
+if($podeaposentar){
+    echo "Pode se aposentar --> $sexo";
+}
+else{
     echo "Vai ter que trabalhar mais um pouco...";
 }
-?>

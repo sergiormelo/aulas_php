@@ -63,6 +63,7 @@
                         <li><a href="exercicio.php?dir=controle1&file=operadores_relacionais">Operadores Relacionais I</a></li>
                         <li><a href="exercicio.php?dir=controle1&file=desafio_pi">Desafio Pi</a></li>
                         <li><a href="exercicio.php?dir=controle1&file=operadores_logicos">Operadores Lógicos</a></li>
+                        <li><a href="exercicio.php?dir=controle1&file=desafio_op_logicos">Desafio Op. Lógicos</a></li>
                     </ul>
                 </div>
             </nav>
