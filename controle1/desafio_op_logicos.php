@@ -28,25 +28,47 @@
     }
 </style>
 <?php
-$q1=$_POST['t1'];
-$q2=$_POST['t2'];
-$pos1=($q1==1 && $q2==1);
-$pos2=($q1==1 && $q2==0) || ($q1==0 && $q2==1);
-$pos3=($q1==0 && $q2==0);
-// echo "q1=$q1 e q2=$q2 pos1=$pos1 pos2=$pos2 pos3=$pos3<br>";
-if($pos1==true){
-    echo "TV 50' e Sorvete" . "<br>$q1$q2 -> |pos1: $pos1|, |pos2: $pos2|, |pos3: $pos3|";
+if(isset($_POST['t1']) && isset($_POST['t2'])){
+    $q1=$_POST['t1'];
+    $q2=$_POST['t2'];
+    $pos1=($q1==1 && $q2==1);
+    $pos2=($q1==1 && $q2==0) || ($q1==0 && $q2==1);
+    $pos3=($q1==0 && $q2==0);
+    if($pos1==true){
+        echo "TV 50' e Sorvete" . "<br>$q1$q2 -> |pos1: $pos1|, |pos2: $pos2|, |pos3: $pos3|";
+    }
+    else if($pos2==true){
+        echo "TV 32' e Sorvete" . "<br>$q1$q2 -> |pos1: $pos1|, |pos2: $pos2|, |pos3: $pos3|";
+    }
+    else if($pos3==true){
+        echo "Fica em casa é mais saudável!" . "<br>$q1$q2 -> |pos1: $pos1|, |pos2: $pos2|, |pos3: $pos3|";
+    }
+    //exemplo mais complexo:
+    // $t1=$_POST['t1']==='1';
+    // $t2=$_POST['t1']==='0';
+    // $tv='';
+    // $sorvete=false;
+    // if($t1 && $t2){
+    //     $tv='50"';
+    // }
+    // else if($t1 xor $t2){
+    //     $tv='32"';
+    // }
+    // if($t1 or $t2){
+    //     $sorvete=true;
+    // }
+    // if($tv){
+    //     $resultado="Vamos comprar uma TV de $tv";
+    // }
+    // else{
+    //     $resultado="Sem TV dessa vez!";
+    // }
+    // $saudavel = !$sorvete;
+    // if($saudavel){
+    //     $resultado .= '<br>Estamos mais saudáveis!';
+    // }
+    // else{
+    //     $resultado .= '<br>Sorvete liberado!';
+    // }
+    // echo "<p>$resultado</p>";
 }
-else if($pos2==true){
-    echo "TV 32' e Sorvete" . "<br>$q1$q2 -> |pos1: $pos1|, |pos2: $pos2|, |pos3: $pos3|";
-}
-else if($pos3==true){
-    echo "Fica em casa é mais saudável!" . "<br>$q1$q2 -> |pos1: $pos1|, |pos2: $pos2|, |pos3: $pos3|";
-}
-// $t1=$_POST['t1']==='1';
-// $t2=$_POST['t1']==='0';
-// $tv='';
-// if($t1 && $t2){
-//     $tv='50"';
-// }
-// if()
