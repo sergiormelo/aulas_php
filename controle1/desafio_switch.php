@@ -39,6 +39,14 @@ if(isset($_POST['conversao']) && isset($_POST['param'])){
             $res=$valor*1000;
             $unid='m';
             break;
+        case 'c-fh':
+            $res=($valor*(9/5))+32;
+            $unid='°F';
+            break;
+        case 'fh-c':
+            $res=($valor-32)/(9/5);
+            $unid='°C';
+            break;
     }
     echo "<br>Valor da conversão: $res $unid!";
 }
