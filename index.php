@@ -77,6 +77,9 @@
                         <li><a href="exercicio.php?dir=array&file=desafio_index">Desafio Index</a></li>
                         <li><a href="exercicio.php?dir=array&file=desafio_meses">Desafio Meses</a></li>
                         <li><a href="exercicio.php?dir=array&file=operacoes">Operações com Arrays</a></li>
+                        <li><a href="exercicio.php?dir=array&file=desafio_sorteio">Desafio Sorteio</a></li>
+                        <li><a href="exercicio.php?dir=array&file=array_multidimensional">Array Multidimensional</a></li>
+                        <li><a href="exercicio.php?dir=array&file=array_constante">Array Constante</a></li>
                     </ul>
                 </div>
             </nav>
