@@ -80,6 +80,9 @@
                         <li><a href="exercicio.php?dir=array&file=desafio_sorteio">Desafio Sorteio</a></li>
                         <li><a href="exercicio.php?dir=array&file=array_multidimensional">Array Multidimensional</a></li>
                         <li><a href="exercicio.php?dir=array&file=array_constante">Array Constante</a></li>
+                        <li><a href="exercicio.php?dir=array&file=get">$_GET</a></li>
+                        <li><a href="exercicio.php?dir=array&file=post">$_POST</a></li>
+                        <li><a href="exercicio.php?dir=array&file=comparacao">Comparação Arrays</a></li>
                     </ul>
                 </div>
             </nav>
