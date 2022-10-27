@@ -85,6 +85,13 @@
                         <li><a href="exercicio.php?dir=array&file=comparacao">Comparação Arrays</a></li>
                     </ul>
                 </div>
+                <div class="modulo verde2">
+                    <h3>Módulo 05 - Array</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=repeticoes&file=for">For</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_for">Desafio For</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
