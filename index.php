@@ -90,6 +90,12 @@
                     <ul>
                         <li><a href="exercicio.php?dir=repeticoes&file=for">For</a></li>
                         <li><a href="exercicio.php?dir=repeticoes&file=desafio_for">Desafio For</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=foreach">Foreach</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=break">Break / Continue</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_foreach">Desafio Foreach</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=while_do_while">While e DO While</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela">Desafio Tabela</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela2">Desafio Tabela 2</a></li>
                     </ul>
                 </div>
             </nav>
