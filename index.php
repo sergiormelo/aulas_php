@@ -98,6 +98,15 @@
                         <li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela2">Desafio Tabela 2</a></li>
                     </ul>
                 </div>
+                <div class="modulo vermelho2">
+                    <h3>Módulo 05 - Array</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=funcoes&file=funcao_escorpo">Função e Escorpo</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=argumentos_retorno">Argumentos e Retornos</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=desafio_palindromo">Desafio Palíndromo</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=argumentos_variaveis">Argumentos Variáveis</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
