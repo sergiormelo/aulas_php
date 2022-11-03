@@ -15,3 +15,13 @@ function somaCompleta(...$numeros){ //aceita vários números ou valores (inclus
 echo somaCompleta(1,2,3,4,5,6);
 $array=[7,8,9,10];
 echo '<br>Soma com array -> ' . somaCompleta(...$array);
+function membros($titular, ...$dependentes){
+    echo "Titular: $titular <br>";
+    if($dependentes){
+        foreach($dependentes as $dep){
+            echo "Dependente: $dep <br>";
+        }
+    }
+}
+echo '<br>', membros("Ana Silva", "Pedro", "Rafaela", "Amanda");
+echo '<br>', membros("José", "Tiago", "João");

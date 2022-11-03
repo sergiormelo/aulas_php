@@ -86,7 +86,7 @@
                     </ul>
                 </div>
                 <div class="modulo verde2">
-                    <h3>Módulo 05 - Array</h3>
+                    <h3>Módulo 06 - Estruturas de Controle II</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=repeticoes&file=for">For</a></li>
                         <li><a href="exercicio.php?dir=repeticoes&file=desafio_for">Desafio For</a></li>
@@ -99,12 +99,16 @@
                     </ul>
                 </div>
                 <div class="modulo vermelho2">
-                    <h3>Módulo 05 - Array</h3>
+                    <h3>Módulo 07 - Funções</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=funcoes&file=funcao_escorpo">Função e Escorpo</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=argumentos_retorno">Argumentos e Retornos</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=desafio_palindromo">Desafio Palíndromo</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=argumentos_variaveis">Argumentos Variáveis</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=argumentos_padrao">Argumentos Padrão</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=declaracao">Declarando Tipos</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=funcao_anonima">Função Anônima</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=closure_callable">Closure Callable</a></li>
                     </ul>
                 </div>
             </nav>
