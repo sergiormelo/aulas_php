@@ -109,6 +109,10 @@
                         <li><a href="exercicio.php?dir=funcoes&file=declaracao">Declarando Tipos</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=funcao_anonima">Função Anônima</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=closure_callable">Closure Callable</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=desafio_recursividade">Desafio Recursividade</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=retornar_funcao">Retornar Função</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=maps">Maps</a></li>
                     </ul>
                 </div>
             </nav>
