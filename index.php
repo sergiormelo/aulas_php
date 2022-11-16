@@ -112,7 +112,7 @@
                         <li><a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=desafio_recursividade">Desafio Recursividade</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=retornar_funcao">Retornar Função</a></li>
-                        <li><a href="exercicio.php?dir=funcoes&file=maps">Maps</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=maps_filter">Maps e Filter</a></li>
                     </ul>
                 </div>
             </nav>
