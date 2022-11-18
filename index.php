@@ -115,6 +115,15 @@
                         <li><a href="exercicio.php?dir=funcoes&file=maps_filter">Maps e Filter</a></li>
                     </ul>
                 </div>
+                <div class="modulo amarelo">
+                    <h3>Módulo 08 - Paradigma 0.0.</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=classe">Primeira Classe</a></li>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=desafio_data">Desafio Data</a></li>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=construtor_destrutor">Construtor e Destrutor</a></li>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=heranca">Herança</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
