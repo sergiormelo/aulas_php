@@ -126,6 +126,9 @@
                         <li><a href="exercicio.php?dir=classe_objetos&file=static">Membros Estáticos</a></li>
                         <li><a href="exercicio.php?dir=classe_objetos&file=interface">Interface</a></li>
                         <li><a href="exercicio.php?dir=classe_objetos&file=abstract">Abstract</a></li>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=desafio_7-erros">Desafio dos 7 Erros</a></li>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=final">Final</a></li>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=traits_01">Traits 01</a></li>
                     </ul>
                 </div>
             </nav>
