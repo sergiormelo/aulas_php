@@ -129,6 +129,15 @@
                         <li><a href="exercicio.php?dir=classe_objetos&file=desafio_7-erros">Desafio dos 7 Erros</a></li>
                         <li><a href="exercicio.php?dir=classe_objetos&file=final">Final</a></li>
                         <li><a href="exercicio.php?dir=classe_objetos&file=traits_01">Traits 01</a></li>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=traits_02">Traits 02</a></li>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=metodos_magicos">Métodos Mágicos</a></li>
+                        <li><a href="exercicio.php?dir=classe_objetos&file=polimorfismo">Polimorfismo</a></li>
+                    </ul>
+                </div>
+                <div class="modulo azul2">
+                    <h3>Módulo 09 - Includes</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=includes&file=includes">Includes</a></li>
                     </ul>
                 </div>
             </nav>
